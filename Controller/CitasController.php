@@ -107,9 +107,9 @@ class CitasController extends BaseController{
         $mail->Port = 587;
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $mail->SMTPSecure = 'STARTTLS';            //Enable implicit TLS encryption
-        $mail->Username   = 'clinicaphp@hotmail.com';                     //SMTP username
+        $mail->Username   = 'clinicaSteamulation@hotmail.com';                     //SMTP username
         $mail->Password   = 'miclinica1234';                               //SMTP password
-        $mail->setFrom('clinicaphp@hotmail.com');
+        $mail->setFrom('clinicaSteamulation@hotmail.com');
         $mail->addAddress($usuario['correo']);     //Add a recipient
         $mail->Subject = 'Confirmación de su cita con la clínica Steamulation';
         $mensaje = 
