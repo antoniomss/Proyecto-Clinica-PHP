@@ -30,7 +30,7 @@ class RegisterView{
         print($msg.'</p>');
     }
     function displayMsg($msg){
-        print('<h4>Resultado: '.$msg.'</h4>');
+        print($msg.'</h4>');
     }
 }
 ?>
