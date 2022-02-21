@@ -70,7 +70,6 @@ class CitasController extends BaseController{
             $this->view->displayError('Registrando Cita');
         }else{
             $this->model->insertCita($data);
-            $this->enviarMail($_SESSION['userdata']);
             $this->mostrarCitas();
         }
 
